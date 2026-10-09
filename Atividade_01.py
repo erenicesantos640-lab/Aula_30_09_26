@@ -1,7 +1,6 @@
-import pandas as pd
+import csv
 
-print("minha atividade")
-print("pandas instalado!")
-
-df = pd.read_csv("csv_aula.csv")
-print(df.head())
+with open("csv_aula.csv", newline='', encoding='utf-8') as arquivo:
+    leitor = csv.reader(arquivo, delimiter=';')
+    for linha in leitor:
+        print(linha)

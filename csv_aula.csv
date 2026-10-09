@@ -1,2 +1,6 @@
-Nome,Idade,CPF,E-mail
-Erenice Cristina,49,67035140204,erenicesantos640@gmail.com
+NOME;IDADE;CPF;E-MAIL
+Erenice;49;67035140204;erenicesantos640@gmail.com
+Fabio;49;12345678901;fabio@gmail.com
+Melissa;30;98765432100;melissa@gmail.com
+Arthur;25;11122233344;arthur@gmail.com
+Heitor;35;55566677788;heitor@gmail.com
